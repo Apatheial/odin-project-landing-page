@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    min-height: 100vh;
+}
+
+body, .main-section, .quote-section > div {
+    flex-direction: column;
+}
+
+header, footer, .hero-section {
+    background-color: #1F2937;
+}
+
+header {
+    justify-content: space-around;
+    padding: 16px;
+}
+
+header, .hero-section, .main-section, footer {
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-logo, .hero-main-text, .hero-button, .merchandise-title, .merchandise-button {
+    color: #F9FAF8;
+}
+
+.header-logo, .hero-main-text, .hero-button, .information-title, .merchandise-title, .merchandise-button {
+    font-weight: 900;
+}
+
+.nav-bar {
+    gap: 20px;
+}
+
+.nav-bar > li > a, .hero-secondary-text, footer > p, .merchandise-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section {
+    justify-content: space-evenly;
+    padding-block: 72px;
+    gap: 40px;
+}
+
+.hero-texts {
+    width: 450px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+}
+
+.hero-button {
+    display: block;
+    margin-top: 16px;
+}
+
+.hero-button, .merchandise-button {
+    font-size: 18px;
+    padding: 8px 36px;
+}
+
+.hero-button, .merchandise-box, .merchandise-button {
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.hero-img {
+    width: 400px;
+}
+
+.main-section, .items-section, .item, footer, .quote-section, .merchandise-section {
+    justify-content: center;
+}
+
+.main-section {
+    flex: 1;
+}
+
+.information-title {
+    margin-block: 48px;
+}
+
+.information-title, .quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.items-section {
+    gap: 48px;
+    margin-bottom: 96px;
+}
+
+.item, .items-img {
+    width: 150px;
+}
+
+.item {
+    width: 150px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.items-img {
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+}
+
+.item > p {
+    text-align: center;
+}
+
+.quote-section, .merchandise-section {
+    width: 100%;
+    padding: 72px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-section > div {
+    max-width: 760px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    font-style: normal;
+    text-align: end;
+    margin-right: 24px;
+}
+
+.quote-author, .merchandise-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.merchandise-box {
+    width: 950px;
+    padding: 48px;
+    justify-content: space-around;
+}
+
+.merchandise-button {
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    padding: 36px;
+}
